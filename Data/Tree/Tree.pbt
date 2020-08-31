@@ -48,6 +48,7 @@ Objects {
   ChildIds: 4286020066788724807
   ChildIds: 11443944074733694132
   ChildIds: 12472215855023931243
+  ChildIds: 12473196647865403324
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -57,6 +58,51 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 12473196647865403324
+  Name: "Stage w projector"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10101017802698483144
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Stage w projector"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -12302.5713
+            Y: 9888.20898
+            Z: 118.75
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9623537505767066562
+    }
   }
 }
 Objects {
@@ -95,7 +141,7 @@ Objects {
 }
 Objects {
   Id: 11443944074733694132
-  Name: "Group"
+  Name: "Primitive Garden"
   Transform {
     Location {
       X: -10070
@@ -57170,7 +57216,7 @@ Objects {
 }
 Objects {
   Id: 2648300783187615576
-  Name: "Group"
+  Name: "Capsule Hut"
   Transform {
     Location {
       X: -7471.20068
