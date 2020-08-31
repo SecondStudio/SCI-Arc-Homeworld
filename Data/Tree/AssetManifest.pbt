@@ -539,6 +539,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4871448386712350861
+  Name: "Sphere"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_002"
+  }
+}
+Assets {
   Id: 4819740724999951379
   Name: "Text 01: C"
   PlatformAssetType: 1
