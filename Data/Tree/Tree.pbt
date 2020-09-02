@@ -49,7 +49,6 @@ Objects {
   ChildIds: 11443944074733694132
   ChildIds: 12472215855023931243
   ChildIds: 12473196647865403324
-  ChildIds: 6809323430974007222
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -59,45 +58,6 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 6809323430974007222
-  Name: "Sphere"
-  Transform {
-    Location {
-      X: -12695
-      Y: 8470
-      Z: 635
-    }
-    Rotation {
-    }
-    Scale {
-      X: 100
-      Y: 100
-      Z: 100
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 4871448386712350861
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
   }
 }
 Objects {
