@@ -305,6 +305,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11436023202306815330
+  Name: "Plastic Matte"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_matte_001"
+  }
+}
+Assets {
   Id: 10964388767172775463
   Name: "Prism - 3-Sided"
   PlatformAssetType: 1

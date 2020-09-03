@@ -30,7 +30,7 @@
           AutoPlay: true
           Transient: true
           Pitch: 800
-          Volume: 1
+          Volume: 0.7
           Falloff: -1
           Radius: -1
           FadeInTime: 0.2

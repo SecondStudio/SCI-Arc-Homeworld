@@ -45,7 +45,6 @@
           }
         }
         ParentId: 15711745073179440527
-        ChildIds: 2298756083131748459
         ChildIds: 4827136363101681434
         UnregisteredParameters {
         }
@@ -57,51 +56,6 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         NetworkContext {
-        }
-      }
-      Objects {
-        Id: 2298756083131748459
-        Name: "Gibs Explosion VFX"
-        Transform {
-          Location {
-            X: -12200
-            Y: 14485
-            Z: 225
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.5
-            Y: 0.5
-            Z: 0.5
-          }
-        }
-        ParentId: 5015312009504924698
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:density"
-            Float: 0.5
-          }
-          Overrides {
-            Name: "bp:Particle Scale Multiplier"
-            Float: 0.5
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 14219344529164170842
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-          }
         }
       }
       Objects {
@@ -130,22 +84,14 @@
             Id: 5586774886687236312
           }
           AutoPlay: true
-          Volume: 1
+          Transient: true
+          Volume: 0.25
           Falloff: -1
           Radius: -1
           EnableOcclusion: true
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
-      }
-    }
-    Assets {
-      Id: 14219344529164170842
-      Name: "Gibs Explosion VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_bloody_explosion"
       }
     }
     Assets {

@@ -16,8 +16,9 @@
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 16755622973337724500
         ChildIds: 403245211055288741
+        ChildIds: 1023742759067941146
+        ChildIds: 16755622973337724500
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -37,7 +38,7 @@
               Id: 841534158063459245
             }
             MuzzleFlashAssetRef {
-              Id: 841534158063459245
+              Id: 11342424118625176468
             }
             TrailAssetRef {
               Id: 841534158063459245
@@ -59,6 +60,7 @@
             ImpactProjectileAssetRef {
               Id: 841534158063459245
             }
+            IsHitscan: true
             BeamAssetRef {
               Id: 841534158063459245
             }
@@ -77,7 +79,6 @@
             MultiShot: 1
             ProjectileSpeed: 10000
             ProjectileLifeSpan: 10
-            ProjectileGravity: 0.25
             ProjectileLength: 100
             ProjectileRadius: 4
             DefaultAbility {
@@ -89,48 +90,6 @@
             WeaponTrajectoryMode {
               Value: "mc:eweapontrajectorymode:muzzletolooktarget"
             }
-          }
-        }
-      }
-      Objects {
-        Id: 16755622973337724500
-        Name: "PaintPointer"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 2460880735939186461
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:List"
-            AssetReference {
-              Id: 12388934027841448601
-            }
-          }
-          Overrides {
-            Name: "cs:PaintBall"
-            AssetReference {
-              Id: 4572431095417173085
-            }
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 378743304471153762
           }
         }
       }
@@ -207,6 +166,76 @@
           Animation: "1hand_pistol_shoot"
           KeyBinding_v2 {
             Value: "mc:egameaction:primaryaction"
+          }
+        }
+      }
+      Objects {
+        Id: 1023742759067941146
+        Name: "ClientContext"
+        Transform {
+          Location {
+            X: -23370
+            Y: 8470
+            Z: 635
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2460880735939186461
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 16755622973337724500
+        Name: "PaintPointer"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2460880735939186461
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:List"
+            AssetReference {
+              Id: 12388934027841448601
+            }
+          }
+          Overrides {
+            Name: "cs:PaintBall"
+            AssetReference {
+              Id: 14851430949357055294
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 378743304471153762
           }
         }
       }
